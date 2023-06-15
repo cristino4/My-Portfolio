@@ -10,7 +10,7 @@ const Navigation = ({currentPage, handlePageChange}) => {
                     'p-5 text-lg font-medium font-sans text-gray-100  hover:text-white dark:text-white bg-blue-950 hover:bg-blue-700 rounded-full active:text-blue-500'
                 :
                     'p-5 text-lg font-medium font-sans text-gray-500  hover:text-white dark:text-white  hover:bg-zinc-700 rounded-full active:text-blue-500'
-                } href='About' onClick = {() => handlePageChange('About')}>About</a>
+                } href='#About' onClick = {() => handlePageChange('About')}>About</a>
 
             </li>
             <li>            
@@ -19,7 +19,7 @@ const Navigation = ({currentPage, handlePageChange}) => {
                     'p-5 text-lg font-medium font-sans text-gray-100  hover:text-white dark:text-white bg-blue-950 hover:bg-blue-700 rounded-full active:text-blue-500'
                 :
                     'p-5 text-lg font-medium font-sans text-gray-500  hover:text-white dark:text-white  hover:bg-zinc-700 rounded-full active:text-blue-500'
-                } href='Portfolio' onClick = {() => handlePageChange('Portfolio')}>Portfolio</a> 
+                } href='#Portfolio' onClick = {() => handlePageChange('Portfolio')}>Portfolio</a> 
             </li>
             <li>            
                 <a className= {
@@ -27,7 +27,7 @@ const Navigation = ({currentPage, handlePageChange}) => {
                     'p-5 text-lg font-medium font-sans text-gray-100  hover:text-white dark:text-white bg-blue-950 hover:bg-blue-700 rounded-full active:text-blue-500'
                 :
                     'p-5 text-lg font-medium font-sans text-gray-500  hover:text-white dark:text-white  hover:bg-zinc-700 rounded-full active:text-blue-500'
-                } href='Contact' onClick = {() => handlePageChange('Contact')}>Contact</a>
+                } href='#Contact' onClick = {() => handlePageChange('Contact')}>Contact</a>
             </li>
             <li>            
                 <a className= {
@@ -35,7 +35,7 @@ const Navigation = ({currentPage, handlePageChange}) => {
                     'p-5 text-lg font-medium font-sans text-gray-100  hover:text-white dark:text-white bg-blue-950 hover:bg-blue-700 rounded-full active:text-blue-500'
                 :
                     'p-5 text-lg font-medium font-sans text-gray-500  hover:text-white dark:text-white  hover:bg-zinc-700 rounded-full active:text-blue-500'
-                } href='Resume' onClick = {() => handlePageChange('Resume')}>Resume</a>
+                } href='#Resume' onClick = {() => handlePageChange('Resume')}>Resume</a>
             </li>
             <li>            
                 <a className= {
@@ -43,7 +43,7 @@ const Navigation = ({currentPage, handlePageChange}) => {
                     'p-5 text-lg font-medium font-sans text-gray-100  hover:text-white dark:text-white bg-blue-950 hover:bg-blue-700 rounded-full active:text-blue-500'
                 :
                     'p-5 text-lg font-medium font-sans text-gray-500  hover:text-white dark:text-white  hover:bg-zinc-700 rounded-full active:text-blue-500'
-                } href='Passions' onClick = {() => handlePageChange('Passions')}>Passions</a>
+                } href='#Passions' onClick = {() => handlePageChange('Passions')}>Passions</a>
             </li>
         </ul>
     );

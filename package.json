@@ -43,5 +43,5 @@
   "devDependencies": {
     "gh-pages": "^5.0.0"
   },
-  "homepage": "http://cristino4.github.io/My-Portfolio"
+  "homepage": "http://localhost:3000"
 }

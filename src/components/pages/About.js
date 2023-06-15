@@ -9,8 +9,7 @@ const About = ({handlePageChange}) => {
         <div className='flex flex-col'>
             <div className="hero bg-white dark:bg-zinc-900">
                 <div className="hero-content flex-col lg:flex-row">
-                    <img src="/assets/images/rocket.jpg" className="max-w-sm rounded-lg shadow-2xl" alt='me and my sister' />
-
+                    <img src="./assets/images/rocket.jpg" className="max-w-sm rounded-lg shadow-2xl" alt='me and my sister' />
                     <div>
                         <p className="font-sans text-5xl font-bold">Welcome!<br></br><br></br>I'm Cristino Castro.</p>
                         <p className="font-sans py-6">I'm an electrical engineer, software developer, and musician from 
