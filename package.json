@@ -1,5 +1,5 @@
 {
-  "name": "Cristino's Portfolio",
+  "name": "myportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,5 +43,5 @@
   "devDependencies": {
     "gh-pages": "^5.0.0"
   },
-  "homepage": "http://localhost:3000"
+  "homepage": "."
 }
