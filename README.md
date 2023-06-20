@@ -16,4 +16,4 @@ The application is also available on its published site: https://cristino4.githu
 - Tailwind CSS
 - Daisy UI
 
-![image](./assets/portfolio.png)
+![image](./assets/images/portfolio.png)
