@@ -1,0 +1,13 @@
+-light
+main text: white
+highlight text: blue-400
+text hover: 
+minor text: gray-500
+bg-zinc-800
+bg-black
+
+
+
+-dark
+text 
+text hover

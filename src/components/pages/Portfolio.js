@@ -16,7 +16,8 @@ const Portfolio = () => {
             repoLink: 'https://github.com/cristino4/6-weather-dashboard',
             appLink: 'https://cristino4.github.io/6-weather-dashboard/',
             image: `${process.env.PUBLIC_URL}/assets/images/weather-dashboard.png`,
-            displayLinks: ''
+            displayLinks: '',
+            alt: 'weather app'
         },
         {
             title: 'The Marketplace',
@@ -26,8 +27,8 @@ const Portfolio = () => {
             repoLink: 'https://github.com/nshaw973/The-Marketplace',
             appLink: 'https://group-3-marketplace.herokuapp.com/',
             image: `${process.env.PUBLIC_URL}/assets/images/themarketplace.png`,
-            displayLinks: ''
-            
+            displayLinks: '',
+            alt: 'the marketplace'
         },
         {
             title: 'Digital Cookbook',
@@ -37,8 +38,8 @@ const Portfolio = () => {
             repoLink: 'https://github.com/Carechiga/Easy-Recipe-App',
             appLink: 'https://carechiga.github.io/Easy-Recipe-App/',
             image: `${process.env.PUBLIC_URL}/assets/images/recipe-app.png`,
-            displayLinks: ''
-
+            displayLinks: '',
+            alt: 'recipe app'
         },
         {
             title: 'Techy Blog',
@@ -48,8 +49,8 @@ const Portfolio = () => {
             repoLink: 'https://github.com/cristino4/14-tech-blog',
             appLink: 'https://tech-blog-14-cc.herokuapp.com/',
             image: `${process.env.PUBLIC_URL}/assets/images/techy-blog.png`,
-            displayLinks: ''
-
+            displayLinks: '',
+            alt: 'techy blog'
         },
         {
             title: 'Employee Tracker CLI',
@@ -59,8 +60,8 @@ const Portfolio = () => {
             repoLink: 'https://github.com/cristino4/12-employee-tracker',
             appLink: 'https://www.youtube.com/watch?v=xybI3pLzSBg',
             image: `${process.env.PUBLIC_URL}/assets/images/employee-tracker.png`,
-            displayLinks: ''
-
+            displayLinks: '',
+            alt: 'employee tracker'
         },
         {
             title: 'Social Network REST API',
@@ -70,8 +71,8 @@ const Portfolio = () => {
             repoLink: 'https://github.com/cristino4/18-social-network-api',
             appLink: 'https://www.youtube.com/watch?v=fc9kLdqZopw',
             image: `${process.env.PUBLIC_URL}/assets/images/social-network-api.png`,
-            displayLinks: ''
-
+            displayLinks: '',
+            alt: 'social network api'
         },
         {
             title: 'Personal Portfolio',
@@ -81,8 +82,8 @@ const Portfolio = () => {
             repoLink: 'https://github.com/cristino4/My-Portfolio/',
             appLink: 'https://cristino4.github.io/My-Portfolio/',
             image: `${process.env.PUBLIC_URL}/assets/images/portfolio.png`,
-            displayLinks: ''
-
+            displayLinks: '',
+            alt: 'portfolio'
         }
     ];
 
@@ -95,8 +96,8 @@ const Portfolio = () => {
             repoLink: null,
             appLink: null,
             image: `${process.env.PUBLIC_URL}/assets/images/br-testing1.png`,
-            displayLinks: 'invisible'
-
+            displayLinks: 'invisible',
+            alt: 'test app'
         },
         {
             title: 'Power Cycle Device Scripting',
@@ -106,21 +107,22 @@ const Portfolio = () => {
             repoLink: null,
             appLink: null,
             image: `${process.env.PUBLIC_URL}/assets/images/apitest.png`,
-            displayLinks: 'invisible'
+            displayLinks: 'invisible',
+            alt: 'test script'
         },
         
     ];
     
     return (
-        <div>
-            <div className="rounded-full border-4 border-gray-700 m-4 p-2 bg-[linear-gradient(to_right,rgba(24,24,27,1.000),rgba(24,24,27,0)),url('https://cristino4.github.io/My-Portfolio/assets/images/code.png')]">
-                <p className="px-4 text-2xl font-sans font-medium text-gray-100 dark:text-white ">Web Development</p>
+        <div className="flex flex-col items-center w-full">
+            <div className="w-full rounded-full border-4 border-gray-700 m-4 p-2 bg-[linear-gradient(to_right,rgba(24,24,27,1.000),rgba(24,24,27,0)),url('https://cristino4.github.io/My-Portfolio/assets/images/code.png')]">
+                <p className="px-4 text-white text-2xl font-sans font-medium">Web Development</p>
             </div>
             {webProjects.map((project) => (
                 <Project project={project} key={project.title}/>
             ))}
-            <div className="rounded-full border-4 border-gray-700 m-4 p-2 bg-[linear-gradient(to_right,rgba(24,24,27,1.000),rgba(24,24,27,0)),url('https://cristino4.github.io/My-Portfolio/assets/images/apitest.png')]">
-                <p className="px-4 text-2xl font-sans font-medium text-gray-100 dark:text-white ">Verification & Validation</p>
+            <div className="w-full rounded-full border-4 border-gray-700 m-4 p-2 bg-[linear-gradient(to_right,rgba(24,24,27,1.000),rgba(24,24,27,0)),url('https://cristino4.github.io/My-Portfolio/assets/images/apitest.png')]">
+                <p className="px-4 text-white text-2xl font-sans font-medium">Testing and Validation</p>
             </div>
             {testScriptingProjects.map((project) => (
                 <Project project={project} key={project.title}/>

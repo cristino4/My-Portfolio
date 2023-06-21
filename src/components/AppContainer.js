@@ -10,11 +10,11 @@ import Resume from './pages/Resume';
 
 
 const AppContainer = () => {
-    const pathname = window.location.hash;
-    
+    var pathname = window.location.hash;
+    if(pathname ===''){
+        pathname = '#About'
+    }
     const [currentPage, setCurrentPage] = useState(pathname);
-    console.log(pathname)
-    console.log(currentPage)
 
     const renderPage = () => {
         if (currentPage === '#About') {
@@ -35,13 +35,11 @@ const AppContainer = () => {
 
 
     return (
-        <div className='flex justify-center w-full'>
-            <div className='flex flex-col bg:white dark:bg-black w-8/12'>
+            <div className='flex flex-col items-center bg-black p-5 w-full md:w-6/12'>
                 <Header currentPage = {currentPage} handlePageChange = {handlePageChange}/>
                 {renderPage()}
                 <Footer />
             </div>
-        </div>
     )
 };
 

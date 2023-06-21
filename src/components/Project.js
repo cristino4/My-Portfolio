@@ -5,21 +5,17 @@ import React from "react";
 
 const Project = ({project}) => {
     return (
-        <div className="m-12 p-2">
-            <div className="collapse collapse-arrow rounded-2xl bg-white dark:bg-zinc-900">
+            <div className="my-5 p-2 collapse collapse-arrow rounded-2xl bg-zinc-800">
                 <input type="checkbox" /> 
-                <div className="collapse-title text-xl font-medium font-sans text-gray-500 hover:text-white dark:text-white">
-                    <p>{project.title}</p>
-                    <p className="text-gray-500 text-lg">{project.techUsed}</p>
-                    <p className="text-gray-500 text-sm">{project.projectType}</p>
-                    
-
-                </div>
-                
+                <div className="collapse-title font-medium font-sans text-white">
+                    <p className="text-xl">{project.title}</p>
+                    <p className="text-sm text-blue-400">{project.techUsed}</p>
+                    <p className="text-sm text-gray-500">{project.projectType}</p>
+                </div>                
                 <div className="collapse-content "> 
-                    <div className="grid grid-cols-2 grid-rows-1">
-                        <p className="p-2 text-center text-lg place-self-center font-medium font-sans text-gray-500 dark:text-gray-400 ">{project.description}</p>
-                        <img className="p-2 place-self-center" src={project.image} alt='project'/>
+                    <div className="flex flex-row flex-wrap justify-center">
+                        <p className="p-2 text-center text-lg font-medium font-sans text-gray-500">{project.description}</p>
+                        <img className="p-2" src={project.image} alt={project.alt}/>
                     </div>
                     <div className = 'flex flex-row justify-evenly'>
                         <a href={project.appLink} className= {`${project.displayLinks} m-5 p-2 w-20 border hover:bg-zinc-700 rounded-full active:text-blue-500`} target="_blank" rel="noopener noreferrer">
@@ -35,8 +31,6 @@ const Project = ({project}) => {
                     </div>
                 </div>
             </div>
-
-        </div>
       );
 };
 
