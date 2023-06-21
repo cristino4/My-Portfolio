@@ -56,7 +56,7 @@ const data = [
     },
     {
         title: 'Inspirations',
-        description: `The Saturn V rocket is the greatest technological acheivement from the days of Apollo. I draw inspiration from it to improve my skills.`,
+        description: `The Saturn V rocket is the greatest technological achievement from the days of Apollo. I draw inspiration from it to improve my skills.`,
         image: './assets/images/saturn5.jpg',
         alt: 'saturn V'
     },
@@ -70,7 +70,7 @@ const data = [
     {
         title: "Senior Design Project",
         description: `One of the the first group technical projects which involved electronics was my senior design project. It was 
-        an Android application and MCU-controlled device that communicatied over Bluetooth. The device scanned networks for 
+        an Android application and MCU-controlled device that communicated over Bluetooth. The device scanned networks for 
         home automation devices and displayed the data on a tablet.`,
         image: './assets/images/seniorprojectposter.jpg',
         alt: 'project poster'

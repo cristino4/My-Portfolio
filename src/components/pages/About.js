@@ -16,7 +16,7 @@ const About = ({handlePageChange}) => {
                     <p className="font-sans py-6">I'm an electrical engineer, software developer, and musician from 
                     Hesperia, California (located just outside of Los Angeles). <br></br><br></br>
                     I was raised in a small family with my only sibling and sister Caroline (seen with me above). 
-                    Since I was a kid, my sister and I have been facinated by science and engineering. I remember 
+                    Since I was a kid, my sister and I have been fascinated by science and engineering. I remember 
                     binge watching Bill Nye (the science guy, remember?) and PBS NOVA shows on TV or cassette. In school I was thrilled at 
                     new science experiements in chemistry class and played guitar in a rock band with my chemistry teacher.  
                     <br></br><br></br>
