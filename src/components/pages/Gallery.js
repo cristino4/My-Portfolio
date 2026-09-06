@@ -19,13 +19,13 @@ const data = [
         image: './assets/images/sdi-video-analysis.jpg',
         alt: 'video analysis'
     },
-    {
-        title: 'Wall of OR Equipment',
-        description: `Perfecting the best operating room (OR) electronic systems takes thousands of hours of testing and evaluation. Do this for 
-        many years and you get this image, the Wall of OR Equipment: a visual history of the evolution of OR equipment.`,
-        image: './assets/images/wall-of-electronics.jpg',
-        alt: 'wall of electronics'
-    },
+    // {
+    //     title: 'Wall of OR Equipment',
+    //     description: `Perfecting the best operating room (OR) electronic systems takes thousands of hours of testing and evaluation. Do this for 
+    //     many years and you get this image, the Wall of OR Equipment: a visual history of the evolution of OR equipment.`,
+    //     image: './assets/images/wall-of-electronics.jpg',
+    //     alt: 'wall of electronics'
+    // },
     {
         title: 'Commercial Audio-Visual Integration Systems',
         description: `Video over IP video distribution has become very popular among integrators. Regardless of the technology, it is satisfying 
